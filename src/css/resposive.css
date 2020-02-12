@@ -1,0 +1,73 @@
+/* ---------------  RESPONSIVE  --------------- */
+
+/* home page */
+/* small device */
+@media(max-width:767px) {
+
+    /* home_photo gallery */
+    #home_photo .col-md-4 div:hover img {
+        transform: scale(1) !important;
+    }
+
+    /* end of home_photo gallery */
+}
+
+/* end of small device */
+
+/* extra small device */
+@media(max-width:575px) {
+
+    /* home_info */
+    #home_info .col-md-5 {
+        margin-right: 0 !important;
+        margin-bottom: 1.5rem !important;
+        text-align: center;
+
+    }
+
+    /* end of home_info */
+}
+
+/* end of extra small device */
+/* end of home page */
+
+/* about page */
+/* medium device */
+@media(max-width:991px) {
+
+    /* about_what we do */
+    #about_weDo img {
+        height: 280px !important;
+    }
+
+    /* end of about_what we do */
+}
+
+/* end of medium device */
+
+/* extra small device */
+@media(max-width:575px) {
+
+    /* about_what we do */
+    #about_weDo {
+        padding-bottom: 0px !important;
+    }
+
+    #about_weDo .col-md-7 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    #about_weDo .col-md-5 {
+        text-align: center;
+    }
+
+    #about_weDo .col-md-5 img {
+        width: 280px;
+    }
+
+    /* end of about_what we do */
+}
+
+/* end of extra small device */
+/* end of about page */

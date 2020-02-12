@@ -1,0 +1,213 @@
+/* responsive css file import */
+@import url('resposive.css');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* navigation section */
+.navbar {
+    background: black;
+}
+
+.navbar .nav-item {
+    padding-left: 1em;
+}
+
+/* end of navigation section */
+
+/* home page */
+/* home_carousel slider */
+#carousel_slider .carousel-indicators li {
+    height: 10px !important;
+    width: 10px !important;
+    border-radius: 50%;
+}
+
+#carousel_slider .carousel-item {
+    height: 500px;
+    background-size: cover !important;
+    background-position: center !important;
+    position: relative !important;
+}
+
+#carousel_slider .carousel-item:nth-child(1) {
+    background: linear-gradient(#0000005c, #000000a6), url('../img/slider1.jpg') no-repeat;
+}
+
+#carousel_slider .carousel-item:nth-child(2) {
+    background: linear-gradient(#0000005c, #000000a6), url('../img/slider2.jpg') no-repeat;
+}
+
+#carousel_slider .carousel-item:nth-child(3) {
+    background: linear-gradient(#0000005c, #000000a6), url('../img/slider3.jpg') no-repeat;
+}
+
+#carousel_slider .carousel-item:nth-child(4) {
+    background: linear-gradient(#0000005c, #000000a6), url('../img/slider4.jpg') no-repeat;
+}
+
+#carousel_slider .carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* end of home_carousel slider */
+
+/* home_content */
+#home_content .row .fas {
+    font-size: 2.5rem;
+}
+
+/* end of home_content */
+
+/* home_get started */
+#home_getStarted {
+    background: linear-gradient(#000000a8, #000000c9), url(../img/get_bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 250px;
+}
+
+/* end of home_get started */
+
+/* home_video */
+#home_video {
+    background: url('../img/video_bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#home_video .row .fas {
+    color: red;
+    font-size: 2.5rem;
+}
+
+/* end of home_video */
+
+/* home_photo gallery */
+#home_photo .col-md-4 div {
+    overflow: hidden;
+}
+
+#home_photo .col-md-4 div img {
+    transition: all 1s;
+}
+
+#home_photo .col-md-4 div:hover img {
+    transform: scale(1.5);
+}
+
+/* end of home_photo gallery */
+/* end of home page */
+
+/* about page */
+/* about_header */
+#about_header {
+    background: linear-gradient(#00000057, #00000082), url('../img/about_header.jpg') no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+/* end of about_header */
+
+/* about_what we do */
+#about_weDo img {
+    width: 400px;
+    height: 400px;
+}
+
+/* end of about_what we do */
+
+/* about_icon box */
+#about_iconBox .row i {
+    font-size: 2.5rem;
+}
+
+/*  end of about_icon box */
+
+/* about_testimonial */
+#about_testimonial .slick-prev::before {
+    color: black;
+}
+
+#about_testimonial .slick-next::before {
+    color: black;
+}
+
+/* end of about_testimonial */
+/* end of about page */
+
+/* service page */
+/* service_header */
+#service_header {
+    background: linear-gradient(#00000085, #000000e3), url('../img/service_header.jpg') no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+/* end of service_header */
+
+/* service_service plan */
+#service_plan .list-group .fas {
+    margin-right: 5px;
+}
+
+/* end of service_service plan */
+/* end of service page */
+
+/* blog page */
+/* blog_header */
+#blog_header {
+    background: linear-gradient(#000000a1, #000000bf), url('../img/blog_header.jpg') no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+/* end of blog_header */
+
+/* blog_blog post */
+#blog_post .card div {
+    overflow: hidden;
+}
+
+#blog_post .card div img {
+    transition: all 1s;
+}
+
+#blog_post .card div:hover img {
+    transform: scale(1.5);
+}
+
+/* end of blog_blog post */
+/* end of blog page */
+
+/* contact page */
+/* contact_header */
+#contact_header {
+    background: linear-gradient(#0000009c, #0000009c), url('../img/contact_header.jpg') no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+/* end of contact_header */
+/* end of contact page */
+
+/* copyright */
+#copyright {
+    background-color: black;
+}
+
+/* end of copyright */
